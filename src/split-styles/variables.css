@@ -1,0 +1,14 @@
+/* === THEME VARIABLES === */
+:root {
+  --primary: #a10028;
+  --secondary: #c91c2e;
+  --muted: #f9f9fb;
+  --bg: #ffffff;
+  --text: #1c1c1c;
+  --text-white: #ffffff;
+  --text-light: #555;
+  --max-width: 1280px;
+  --sidebar-w: 320px;
+  --radius: 8px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}

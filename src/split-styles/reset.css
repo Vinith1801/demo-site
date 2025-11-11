@@ -1,0 +1,25 @@
+/* === GLOBAL RESET === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: var(--muted);
+  line-height: 1.7;
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+/* === MAIN LAYOUT === */
+.container {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) 1fr;
+  gap: 32px;
+  max-width: var(--max-width);
+  margin: 40px auto;
+  padding: 0 20px;
+}
