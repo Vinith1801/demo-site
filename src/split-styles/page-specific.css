@@ -107,7 +107,7 @@
 
 /* === ABSTRACTION & INDEXING PAGE === */
 .hero-block.light-red {
-  background: linear-gradient(90deg, #c91c2e, #e7444c);
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
   color: #fff;
 }
 
